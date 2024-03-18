@@ -1,0 +1,162 @@
+/*Inicio da página*/
+
+.landing-page {
+    margin: 0;
+    padding-top: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.inicio {
+    width: 100%;
+    padding: 2rem;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.inicio p {
+    margin-bottom: 3rem;
+}
+
+.seta {
+    display: flex;
+    flex-direction: column;
+    margin: 80px auto;
+    align-items: center;
+}
+
+.curiosidade {
+    width: 100%;
+    margin: 60px auto;
+    border-top: 1px solid var(--color-green);
+    border-bottom: 1px solid var(--color-green);
+    padding: 30px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 500px;
+}
+.curiosidade p {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*Conteúdo*/
+.conteudo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10rem;
+    margin: 0 auto;
+    width: 98%;
+}
+
+.cntd {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.cntd .img1 {
+    max-width: 400px;
+    padding: 10px;
+    border: 2px solid var(--color-green);
+    border-radius: 20px 20px 60px 20px;
+}
+
+.cntd .img2 {
+    max-width: 500px;
+    padding: 10px;
+    border: 2px solid var(--color-green);
+    border-radius: 90px 20px 20px 20px;
+}
+
+.textos {
+    width: 50%;
+}
+
+.textos h2 {
+    margin-bottom: 30px;
+}
+.textos p {
+    margin-bottom: 20px;
+}
+
+
+
+/*Responsividade*/
+
+@media (max-width: 967px) {
+    .conteudo img {
+        width: 300px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 650px) {
+
+    /*Conteúdo da pagina*/
+    .landing-page h1 {
+        font-size: 50px;
+    }
+    .landing-page h2 {
+        font-size: 25px;
+        margin-bottom: 0px;
+        padding-top: 20px;
+    }
+    .landing-page p {
+        font-size: 13px;
+        padding: 30px;
+        line-height: normal;
+        margin-bottom: 0;
+    }
+    .landing-page {
+        padding-top: 30px;
+    }
+
+    .seta {
+        display: none;
+    }
+
+    .curiosidade {
+        font-size: 14px;
+    }
+
+    .conteudo {
+        width: 95%;
+    }
+
+    .conteudo img {
+        width: 250px;
+    }
+
+    .cntd {
+        flex-direction: column;
+        gap: 4rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .textos {
+        width: 100%;
+    }
+
+    .textos p {
+        font-size: 15px;
+    }
+    .textos h2 {
+        font-size: 25px;
+    }
+
+}
