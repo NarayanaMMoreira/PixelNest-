@@ -1,0 +1,259 @@
+/*Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    word-wrap: break-word;
+}
+
+/* Várivaies */
+
+:root {
+    --color-green: #a4db69;
+    --color-blue: #0063e2;
+    --color-purple: #b480d3;
+    --color-light: #FFFDE0;
+    --transition: .3s;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: var(--color-light);
+}
+
+/* Formatação Geral */
+a {
+    text-decoration: none;
+    color: var(--color-light);
+    font-weight: 700px;
+    transition: var(--transition);
+}
+
+h1 {
+    font-family: "Yeseva One";
+}
+
+h2 {
+    font-family: "Lilita One";
+    font-weight: 200;
+}
+
+/*Navbar Responsiva*/
+
+.nav-responsiva {
+    display: none;
+}
+
+.menu {
+    display: none;
+    
+}
+
+#check:checked ~ .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-weight: 600;
+    width: 100%;
+    background-color: var(--color-purple);
+    border-radius: 0 0 30px 30px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* Navbar */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: var(--color-purple);
+    color: var(--color-light);
+    margin: 0 0 10px 0;
+    align-items: center;
+    padding: 5px 40px;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.links a:hover {
+    background-color: var(--color-light);
+    color: var(--color-blue);
+    border-radius: 30px;
+    padding: 0 20px;
+}
+
+/*Rodape*/
+footer {
+    background-color: var(--color-purple);
+    width: 100%;
+    color: var(--color-light);
+    display: flex;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 22px;
+
+    
+}
+.sobre {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.sobre a {
+    color: var(--color-purple);
+    font-weight: 600;
+    background-color: var(--color-light);
+    padding: 1px;
+}
+
+.sobre a:hover {
+    color: var(--color-blue);
+}
+
+
+
+/*Elementos da Página Home*/
+
+.btn {
+    background-color: var(--color-purple);
+    border: 2px solid var(--color-purple);
+    font-weight: 600;
+    color: var(--color-light);
+    padding: 8px 3.5rem;
+    border-radius: 30px;
+    transition: var(--transition);
+}
+
+.btn:hover {
+    background-color: var(--color-light);
+    color: var(--color-purple);
+}
+
+.landing-page {
+    margin: 0;
+    padding-top: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.inicio {
+    width: 100%;
+    padding: 2rem;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.inicio h1 {
+    color: var(--color-blue);
+    font-size: 120px;
+}
+
+.inicio h2 {
+    color: var(--color-green);
+    font-size: 50px;
+}
+
+
+.inicio p {
+    font-weight: 600;
+    margin-bottom: 3rem;
+    line-height: 2.5rem;
+}
+
+.seta {
+    display: flex;
+    flex-direction: column;
+    margin: 80px auto;
+    align-items: center;
+}
+
+.curiosidade {
+    width: 100%;
+    margin: 60px auto;
+    border-top: 1px solid var(--color-green);
+    border-bottom: 1px solid var(--color-green);
+    padding: 30px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 500px;
+}
+.curiosidade p {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*Responsividade*/
+
+@media (max-width: 650px) {
+    /*Navbar Padrão*/
+    .navbar {
+        display: none;
+    }
+
+    .nav-responsiva {
+        font-size: 10px;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-color: var(--color-purple);
+        margin: 0;
+        padding:  5px 18px;
+        align-items: center;
+        justify-content: space-between;
+        color: var(--color-light);
+    }
+
+    /*Conteúdo da pagina*/
+    .landing-page h1 {
+        font-size: 50px;
+    }
+    .landing-page h2 {
+        font-size: 25px;
+        margin-bottom: 0px;
+        padding-top: 20px;
+    }
+    .landing-page p {
+        font-size: 13px;
+        padding: 30px;
+        line-height: normal;
+        margin-bottom: 0;
+    }
+    .landing-page {
+        padding-top: 30px;
+    }
+
+    .seta {
+        display: none;
+    }
+
+    .btn {
+        padding: 5px 1.5rem;;
+    }
+
+    .curiosidade {
+        font-size: 14px;
+    }
+
+}
+
+
