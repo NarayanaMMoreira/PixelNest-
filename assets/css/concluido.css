@@ -1,0 +1,12 @@
+img {
+    padding: 1.5rem;
+    border: 2px solid var(--color-blue);
+    border-radius: 1rem;
+    margin-top: 3rem;
+}
+
+@media (max-width: 650px) {
+    img {
+        max-width: 25rem;
+    }
+}
