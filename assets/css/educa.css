@@ -73,6 +73,9 @@ th {
     border: 2px solid var(--color-blue);
     border-radius: 30px;
 }
+.newsletter img {
+    border-radius: 20px;
+}
 .chamada p{
     margin-bottom: 20px;
 }
@@ -89,6 +92,15 @@ th {
     }
     .texto {
         text-align: center;
+    }
+
+    .newsletter {
+        flex-direction: column;
+        width: 80%;
+        text-align: center;
+    }
+    .newsletter img {
+        max-width: 250px;
     }
 
 }
