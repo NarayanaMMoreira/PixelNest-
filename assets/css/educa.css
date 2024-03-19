@@ -25,6 +25,7 @@
 
 /*Tabela*/
 .tabela {
+    width: 98%;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -36,7 +37,6 @@
 }
 
 table {
-    width: 80%;
     border-collapse: collapse;
     margin-top: 1rem;
     border-radius: 1rem;
