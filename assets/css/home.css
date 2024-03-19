@@ -10,6 +10,7 @@
 }
 
 
+
 .inicio {
     width: 100%;
     padding: 2rem;
@@ -107,16 +108,11 @@
 @media (max-width: 650px) {
 
     /*Conteúdo da pagina*/
-    .landing-page h1 {
-        font-size: 50px;
-    }
     .landing-page h2 {
-        font-size: 25px;
         margin-bottom: 0px;
         padding-top: 20px;
     }
     .landing-page p {
-        font-size: 13px;
         padding: 30px;
         line-height: normal;
         margin-bottom: 0;
@@ -127,10 +123,6 @@
 
     .seta {
         display: none;
-    }
-
-    .curiosidade {
-        font-size: 14px;
     }
 
     .conteudo {
@@ -150,13 +142,6 @@
 
     .textos {
         width: 100%;
-    }
-
-    .textos p {
-        font-size: 15px;
-    }
-    .textos h2 {
-        font-size: 25px;
     }
 
 }
