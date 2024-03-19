@@ -8,8 +8,9 @@
     align-items: center;
     flex-direction: column;
 }
-
-
+.inicio h1 {
+    font-size: 120px;
+}
 
 .inicio {
     width: 100%;
@@ -108,17 +109,13 @@
 @media (max-width: 650px) {
 
     /*Conteúdo da pagina*/
-    .landing-page h2 {
-        margin-bottom: 0px;
-        padding-top: 20px;
-    }
-    .landing-page p {
-        padding: 30px;
-        line-height: normal;
-        margin-bottom: 0;
-    }
+
     .landing-page {
         padding-top: 30px;
+    }
+
+    .inicio h1 {
+        font-size: 60px;
     }
 
     .seta {
