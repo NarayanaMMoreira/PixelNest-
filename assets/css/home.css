@@ -2,14 +2,14 @@
 
 .landing-page {
     margin: 0;
-    padding-top: 80px;
+    padding-top: 8rem;
     width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 .inicio h1 {
-    font-size: 120px;
+    font-size: 12rem;
 }
 
 .inicio {
@@ -28,19 +28,19 @@
 .seta {
     display: flex;
     flex-direction: column;
-    margin: 80px auto;
+    margin: 8rem auto;
     align-items: center;
 }
 
 .curiosidade {
     width: 100%;
-    margin: 60px auto;
+    margin: 6rem auto;
     border-top: 1px solid var(--color-green);
     border-bottom: 1px solid var(--color-green);
-    padding: 30px;
+    padding: 3rem;
     text-align: center;
     font-style: italic;
-    font-weight: 500px;
+    font-weight: 500;
 }
 .curiosidade p {
     width: 80%;
@@ -69,17 +69,17 @@
 }
 
 .cntd .img1 {
-    max-width: 400px;
-    padding: 10px;
+    max-width: 40rem;
+    padding: 1rem;
     border: 2px solid var(--color-green);
-    border-radius: 20px 20px 60px 20px;
+    border-radius: 2rem 6rem 2rem 2rem;
 }
 
 .cntd .img2 {
-    max-width: 500px;
-    padding: 10px;
+    max-width: 50rem;
+    padding: 1rem;
     border: 2px solid var(--color-green);
-    border-radius: 90px 20px 20px 20px;
+    border-radius: 9rem 2rem 2rem 2rem;
 }
 
 .textos {
@@ -87,10 +87,10 @@
 }
 
 .textos h2 {
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
 .textos p {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
 }
 
 
@@ -99,10 +99,10 @@
 
 @media (max-width: 967px) {
     .conteudo img {
-        width: 300px;
+        width: 3rem;
     }
     h2 {
-        font-size: 35px;
+        font-size: 3.5rem;
     }
 }
 
@@ -111,11 +111,11 @@
     /*Conteúdo da pagina*/
 
     .landing-page {
-        padding-top: 30px;
+        padding-top: 3rem;
     }
 
     .inicio h1 {
-        font-size: 60px;
+        font-size: 6rem;
     }
 
     .seta {
@@ -127,7 +127,7 @@
     }
 
     .conteudo img {
-        width: 250px;
+        width: 25rem;
     }
 
     .cntd {
