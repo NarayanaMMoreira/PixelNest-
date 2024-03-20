@@ -54,12 +54,14 @@ th {
     color: var(--color-light);
 }
 
-/*Conteúdo*/
-
-.textos {
+.textos{
+    display: flex;
     width: 80%;
+    flex-direction: column;
+    gap: 1rem;
     align-items: center;
-    margin: 0 auto;
+    text-align: left;
+    margin: 9rem auto;
 }
 
 /*Newsletter*/
